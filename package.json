@@ -1,0 +1,45 @@
+{
+   "name": "brat-canvas",
+   "version": "1.0.0",
+   "description": "Generate brat-style images with emoji support using @napi-rs/canvas",
+   "type": "module",
+   "main": "dist/image.js",
+   "exports": {
+      ".": "./dist/image.js",
+      "./image": "./dist/image.js",
+      "./video": "./dist/video.js"
+   },
+   "files": [
+      "dist/",
+      "assets/",
+      "README.md"
+   ],
+   "scripts": {
+      "build": "rollup -c",
+      "prepublishOnly": "npm run build"
+   },
+   "keywords": [
+      "brat",
+      "canvas",
+      "image",
+      "generator",
+      "emoji"
+   ],
+   "author": "Darrel Parker",
+   "license": "MIT",
+   "dependencies": {
+      "emoji-db": "^16.0.1"
+   },
+   "peerDependencies": {
+      "@napi-rs/canvas": "^1.0.0"
+   },
+   "devDependencies": {
+      "rollup": "^4.0.0",
+      "@rollup/plugin-commonjs": "^29.0.2",
+      "@rollup/plugin-json": "^6.1.0",
+      "@rollup/plugin-node-resolve": "^16.0.3"
+   },
+   "engines": {
+      "node": ">=16"
+   }
+}
