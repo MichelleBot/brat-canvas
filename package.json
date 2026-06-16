@@ -28,7 +28,7 @@
    "author": "Darrel Parker",
    "license": "MIT",
    "dependencies": {
-      "emoji-db": "^16.0.1"
+      "emoji-db": "^1.0.0"
    },
    "peerDependencies": {
       "@napi-rs/canvas": "^1.0.0"
