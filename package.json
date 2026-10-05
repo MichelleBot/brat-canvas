@@ -32,7 +32,7 @@
       "emoji-db": "^1.0.0"
    },
    "peerDependencies": {
-      "@napi-rs/canvas": "^1.0.9"
+      "@napi-rs/canvas": "^1.0.10"
    },
    "devDependencies": {
       "rollup": "^4.0.0",
